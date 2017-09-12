@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue Nov 10 16:15:19 ART 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=FiltersPIVLayer.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

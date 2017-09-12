@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true">  
+  <object id="1" language="java" name="pivLayer.Procesador" project="PIV" file="/PIV/src/pivLayer/Procesador.java" 
+    binary="false" label="procesador" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="130" y="0"/>    
+    <execution id="2">      
+      <position height="226" width="90" x="5" y="124"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="pivLayer.Buffer" project="PIV" file="/PIV/src/pivLayer/Buffer.java" 
+    binary="false" label="buffer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="159" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="58" x="99" y="225"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="7" x="128" y="253"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="pivLayer.FiltroProcesable" project="PIV" 
+    file="/PIV/src/pivLayer/FiltroProcesable.java" binary="false" label="filtroProcesable" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="160" y="0"/>  
+  </object>  
+  <object id="15" language="java" name="pivLayer.Proceso" project="PIV" file="/PIV/src/pivLayer/Proceso.java" 
+    binary="false" label="proceso" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="251" y="0"/>    
+    <execution id="4">      
+      <position height="122" width="71" x="161" y="145"/>    
+    </execution>  
+  </object>  
+  <object id="19" language="java" name="pivLayer.Proceso" project="PIV" file="/PIV/src/pivLayer/Proceso.java" 
+    binary="false" label="proceso1" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="343" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="71" x="236" y="165"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="71" x="357" y="283"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="7" x="389" y="287"/>    
+    </execution>  
+  </object>  
+  <object id="22" language="java" name="pivLayer.Proceso" project="PIV" file="/PIV/src/pivLayer/Proceso.java" 
+    binary="false" label="proceso2" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="401" y="0"/>    
+    <execution id="8">      
+      <position height="144" width="71" x="311" y="185"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="21" width="7" x="464" y="193"/>    
+    </execution>  
+  </object>  
+  <object id="26" language="java" name="pivLayer.Proceso" project="PIV" file="/PIV/src/pivLayer/Proceso.java" 
+    binary="false" label="proceso3" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="531" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="71" x="386" y="205"/>    
+    </execution>    
+    <execution id="27">      
+      <position height="21" width="71" x="507" y="256"/>    
+    </execution>    
+    <execution id="28">      
+      <position height="63" width="71" x="507" y="341"/>    
+    </execution>  
+  </object>  
+  <object id="31" language="java" name="pivLayer.Buffer" project="PIV" file="/PIV/src/pivLayer/Buffer.java" 
+    binary="false" label="buffer1" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="523" y="0"/>    
+    <execution id="32">      
+      <position height="63" width="58" x="582" y="235"/>    
+    </execution>    
+    <execution id="30">      
+      <position height="21" width="58" x="582" y="362"/>    
+    </execution>  
+  </object>  
+  <object id="34" language="java" name="pivLayer.Proceso" project="PIV" file="/PIV/src/pivLayer/Proceso.java" 
+    binary="false" label="proceso4" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="638" y="0"/>  
+  </object>  
+  <object id="35" language="java" name="pivLayer.Proceso" project="PIV" file="/PIV/src/pivLayer/Proceso.java" 
+    binary="false" label="proceso5" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="673" y="0"/>  
+  </object>  
+  <object id="36" language="java" name="pivLayer.Buffer" project="PIV" file="/PIV/src/pivLayer/Buffer.java" 
+    binary="false" label="buffer2" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="778" y="0"/>  
+  </object>  
+  <message id="3" operation="run():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="run():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="run():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="run():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="16">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="getElem(int):pivLayer.ElementoProcesable">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="23">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="24">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="25">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="29" operation="getElem(int):pivLayer.ElementoProcesable">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </message>  
+  <message id="33">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>
+</sequence-diagram>
